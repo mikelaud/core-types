@@ -1,4 +1,4 @@
-package mikelaud.types;
+package mikelaud.core.types;
 
 import java.awt.Dimension;
 
