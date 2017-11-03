@@ -2,6 +2,9 @@
 
 Core Types
 
+**Usage:**
+- https://github.com/mikelaud/core-types/blob/master/src/test/java/mikelaud/core/types/ResolutionDemo.java
+
 **Maven:**
 ```XML
 <project ...>
