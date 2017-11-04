@@ -3,37 +3,39 @@ package mikelaud.core.types;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import org.junit.Before;
+import java.util.function.Consumer;
+
 import org.junit.Test;
 
 public class ResolutionTest {
 
-	private Resolution mResolution = null;
-	
-	@Before
-	public void before() {
-		mResolution = Resolution.HD_720;
+	private void iterate(Consumer<Resolution> aStatement) {
+		for (Resolution resolution : Resolution.values()) {
+			aStatement.accept(resolution);
+		}
 	}
 	
 	@Test
 	public void testConstructor() {
-		assertNotNull(mResolution);
+		iterate(resolution -> assertNotNull(resolution));
 	}
 
 	@Test
 	public void testWidth() {
-		assertTrue(mResolution.getWidth() > 0);
+		iterate(resolution -> assertTrue(resolution.getWidth() > 0));
 	}
 
 	@Test
 	public void testHeight() {
-		assertTrue(mResolution.getHeight() > 0);
+		iterate(resolution -> assertTrue(resolution.getHeight() > 0));
 	}
 
 	@Test
 	public void testToString() {
-		assertNotNull(mResolution.toString());
-		assertTrue(mResolution.toString().length() > 0);
+		iterate(resolution -> {
+			assertNotNull(resolution.toString());
+			assertTrue(resolution.toString().length() > 0);			
+		});
 	}
 
 }
