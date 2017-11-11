@@ -3,6 +3,7 @@
 Core Types Component
 
 **Usage:**
+- https://github.com/mikelaud/core-types/blob/master/src/test/java/mikelaud/core/types/FxStyleDemo.java
 - https://github.com/mikelaud/core-types/blob/master/src/test/java/mikelaud/core/types/ResolutionDemo.java
 - https://github.com/mikelaud/core-types/blob/master/src/test/java/mikelaud/core/types/StringTypeDemo.java
 
@@ -21,7 +22,7 @@ Core Types Component
 		<dependency>
 			<groupId>com.github.mikelaud</groupId>
 			<artifactId>core-types</artifactId>
-			<version>[2.0.0,)</version>
+			<version>[3.0.0,)</version>
 		</dependency>
 	</dependencies>
 
