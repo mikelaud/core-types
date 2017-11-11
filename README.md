@@ -4,6 +4,7 @@ Core Types Component
 
 **Usage:**
 - https://github.com/mikelaud/core-types/blob/master/src/test/java/mikelaud/core/types/ResolutionDemo.java
+- https://github.com/mikelaud/core-types/blob/master/src/test/java/mikelaud/core/types/StringTypeDemo.java
 
 **Maven:**
 ```XML
