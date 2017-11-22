@@ -26,7 +26,7 @@ Core Types Java-Component
 		<dependency>
 			<groupId>com.github.mikelaud</groupId>
 			<artifactId>core-types</artifactId>
-			<version>[4.0.0,)</version>
+			<version>[5.0.0,)</version>
 		</dependency>
 	</dependencies>
 
